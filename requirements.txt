@@ -1,0 +1,8 @@
+streamlit>=1.30.0
+pvlib>=0.15.0
+pandas>=3.0.0
+numpy>=2.0.0
+plotly>=5.0.0
+requests>=2.31.0
+fpdf2>=2.8.7
+pillow>=10.0.0
