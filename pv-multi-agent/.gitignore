@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.txt
+!reports/*.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+/test_*.py
+
+# Temporary files
+*.pdf
+tmp/
+temp/
+.coverage.*
+
+# Node (if using any node tools)
+node_modules/
+
+# API keys / secrets
+*.env
+!*.env.example
+
+# uv
+requirements.lock
+requirements-dev.lock
+
+# Logs
+*.log
+
+# Cached weather data (re-fetchable from Open-Meteo)
+data/weather_cache/
